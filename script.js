@@ -13,7 +13,7 @@ function showLoadingSpinner() {
 function removeLoadingSpinner() {
     if(!loader.hidden) {
         quoteContainer.hidden = false;
-        lader.hidden = true;
+        loader.hidden = true;
     }
 }
 //  Get quote from API 
