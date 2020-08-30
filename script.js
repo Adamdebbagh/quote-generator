@@ -45,7 +45,7 @@ async function getQuote() {
        
         removeLoadingSpinner();
     } catch (error) {
-        //getQuote();
+        getQuote();
     }
     
     
