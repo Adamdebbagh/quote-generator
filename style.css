@@ -76,7 +76,7 @@ button:active {
 }
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #333333; /* Blue */
+    border-top: 16px solid #333333; 
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -87,6 +87,16 @@ button:active {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+  }
+  .footer a { color:blanchedalmond;}
 
 /* Media query for Tablet or Smaller */
 @media screen and (max-width:1000px){
